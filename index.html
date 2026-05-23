@@ -1,107 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ravi Varma | Java Full Stack Developer</title>
-  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
-<body>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
 
   <!-- NAVBAR -->
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <h1 class="text-xl font-bold text-gray-900">
+        Ravi Varma
+      </h1>
+
+      <div class="hidden md:flex gap-8 font-medium text-gray-700">
+
+        <a href="#about" class="hover:text-blue-500 transition">
+          About
+        </a>
+
+        <a href="#skills" class="hover:text-blue-500 transition">
+          Skills
+        </a>
+
+        <a href="#projects" class="hover:text-blue-500 transition">
+          Projects
+        </a>
+
+        <a href="#education" class="hover:text-blue-500 transition">
+          Education
+        </a>
+
+        <a href="#contact" class="hover:text-blue-500 transition">
+          Contact
+        </a>
+
+      </div>
+
+    </div>
+
   </nav>
 
   <!-- HERO SECTION -->
 
-  <header class="hero">
+  <section class="bg-white py-24">
 
-    <h1>KETHA VENKATA RAVI VARMA</h1>
+    <div class="max-w-6xl mx-auto px-6 text-center">
 
-    <p>Java Full Stack Developer</p>
+      <h1 class="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
 
-    <p class="tagline">
-      Spring Boot • ReactJS • REST APIs • JWT Authentication
-    </p>
+        KETHA VENKATA <br>
+        RAVI VARMA
 
-    <div class="buttons">
+      </h1>
 
-      <a href="resume.pdf" download>Download Resume</a>
+      <p class="mt-6 text-2xl text-gray-600 font-medium">
+        Java Full Stack Developer
+      </p>
 
-      <a href="certificate.png" target="_blank">
-        View GUVI Certificate
-      </a>
+      <p class="mt-5 text-gray-500 max-w-3xl mx-auto text-lg leading-relaxed">
 
-      <a href="https://github.com/raviva07" target="_blank">
-        GitHub
-      </a>
+        Passionate Java Full Stack Developer specialized in building
+        scalable full stack web applications using Spring Boot,
+        ReactJS, REST APIs, JWT Authentication, and modern UI technologies.
 
-      <a href="https://www.linkedin.com/in/ravi-varma-ketha-526522309/"
-        target="_blank">
-        LinkedIn
-      </a>
+      </p>
+
+      <!-- BUTTONS -->
+
+      <div class="mt-10 flex flex-wrap justify-center gap-4">
+
+        <a href="resume.pdf"
+          download
+          class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl shadow-md transition">
+
+          Download Resume
+
+        </a>
+
+        <a href="certificate.png"
+          target="_blank"
+          class="border border-gray-300 hover:border-blue-500 px-6 py-3 rounded-xl bg-white transition">
+
+          View Certificate
+
+        </a>
+
+        <a href="https://github.com/raviva07"
+          target="_blank"
+          class="border border-gray-300 hover:border-blue-500 px-6 py-3 rounded-xl bg-white transition">
+
+          GitHub
+
+        </a>
+
+        <a href="https://www.linkedin.com/in/ravi-varma-ketha-526522309/"
+          target="_blank"
+          class="border border-gray-300 hover:border-blue-500 px-6 py-3 rounded-xl bg-white transition">
+
+          LinkedIn
+
+        </a>
+
+      </div>
 
     </div>
 
-  </header>
+  </section>
 
   <!-- ABOUT -->
 
-  <section id="about">
+  <section id="about" class="py-20">
 
-    <h2>About Me</h2>
+    <div class="max-w-6xl mx-auto px-6">
 
-    <p>
-      Passionate Java Full Stack Developer with hands-on experience
-      in building scalable full stack web applications using Java,
-      Spring Boot, ReactJS, MySQL, and REST APIs.
-    </p>
+      <div class="text-center mb-14">
 
-    <p>
-      Strong understanding of backend development, authentication,
-      database integration, API documentation, and responsive
-      frontend development.
-    </p>
+        <h2 class="text-4xl font-bold text-gray-900">
+          About Me
+        </h2>
 
-    <p>
-      Completed multiple real-world projects with JWT authentication,
-      Razorpay payment integration, Cloudinary media storage,
-      Swagger documentation, and secure RESTful APIs.
-    </p>
+        <div class="w-24 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
+
+      </div>
+
+      <div class="bg-white rounded-3xl shadow-md p-10">
+
+        <p class="text-lg text-gray-600 leading-relaxed">
+
+          Motivated Java Full Stack Developer with hands-on experience
+          in building scalable and responsive web applications using
+          Java, Spring Boot, ReactJS, MySQL, and REST APIs.
+
+          Strong understanding of backend development, frontend integration,
+          authentication systems, database management, API documentation,
+          and deployment workflows.
+
+          Developed multiple real-world projects with JWT Authentication,
+          Razorpay Integration, Cloudinary Media Storage, and RESTful API architecture.
+
+        </p>
+
+      </div>
+
+    </div>
 
   </section>
 
   <!-- SKILLS -->
 
-  <section id="skills">
+  <section id="skills" class="py-20 bg-white">
 
-    <h2>Technical Skills</h2>
+    <div class="max-w-6xl mx-auto px-6">
 
-    <div class="skills">
+      <div class="text-center mb-14">
 
-      <div class="skill">Java</div>
-      <div class="skill">Spring Boot</div>
-      <div class="skill">Spring Security</div>
-      <div class="skill">JWT Authentication</div>
-      <div class="skill">ReactJS</div>
-      <div class="skill">REST APIs</div>
-      <div class="skill">Hibernate</div>
-      <div class="skill">MySQL</div>
-      <div class="skill">MongoDB</div>
-      <div class="skill">Swagger</div>
-      <div class="skill">JUnit</div>
-      <div class="skill">Maven</div>
-      <div class="skill">GitHub</div>
-      <div class="skill">Cloudinary</div>
-      <div class="skill">Razorpay</div>
+        <h2 class="text-4xl font-bold text-gray-900">
+          Technical Skills
+        </h2>
+
+        <div class="w-24 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
+
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          Java
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          Spring Boot
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          ReactJS
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          Spring Security
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          JWT Authentication
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          REST APIs
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          Hibernate
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          MySQL
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          MongoDB
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          Swagger
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          Maven
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-5 shadow-sm text-center font-semibold">
+          Git & GitHub
+        </div>
+
+      </div>
 
     </div>
 
@@ -109,92 +229,221 @@
 
   <!-- PROJECTS -->
 
-  <section id="projects">
+  <section id="projects" class="py-20">
 
-    <h2>Projects</h2>
+    <div class="max-w-7xl mx-auto px-6">
 
-    <!-- PROJECT 1 -->
+      <div class="text-center mb-14">
 
-    <div class="project">
+        <h2 class="text-4xl font-bold text-gray-900">
+          Projects
+        </h2>
 
-      <h3>Real Estate Property Management Application</h3>
+        <div class="w-24 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
 
-      <p>
-        Developed a full stack real estate application using
-        Spring Boot and ReactJS for property listing and customer
-        management.
-      </p>
+      </div>
 
-      <ul>
-        <li>Implemented JWT-based authentication and authorization</li>
-        <li>Integrated Cloudinary for property image uploads</li>
-        <li>Developed RESTful APIs using Spring Boot</li>
-        <li>Created Swagger API documentation</li>
-        <li>Used MySQL and Spring Data JPA for database operations</li>
-        <li>Built responsive frontend using ReactJS and Tailwind CSS</li>
-      </ul>
+      <div class="grid md:grid-cols-3 gap-8">
 
-      <a class="project-btn"
-        href="https://github.com/raviva07/Real_Estate_App"
-        target="_blank">
-        View Project
-      </a>
+        <!-- PROJECT 1 -->
 
-    </div>
+        <div class="bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8">
 
-    <!-- PROJECT 2 -->
+          <h3 class="text-2xl font-bold text-gray-900">
+            Real Estate App
+          </h3>
 
-    <div class="project">
+          <p class="mt-4 text-gray-600 leading-relaxed">
 
-      <h3>E-Commerce Web Application</h3>
+            Full stack real estate platform for property management,
+            authentication, media uploads, and customer interactions.
 
-      <p>
-        Developed a secure e-commerce platform with product
-        management, payment processing, and authentication modules.
-      </p>
+          </p>
 
-      <ul>
-        <li>Integrated Razorpay payment gateway</li>
-        <li>Implemented secure login using Spring Security and JWT</li>
-        <li>Integrated Cloudinary for product image storage</li>
-        <li>Created REST APIs for frontend-backend communication</li>
-        <li>Performed backend testing and validation</li>
-        <li>Developed responsive UI using ReactJS and Bootstrap</li>
-      </ul>
+          <div class="mt-5 flex flex-wrap gap-2">
 
-      <a class="project-btn"
-        href="https://github.com/raviva07/Ecommerce_App"
-        target="_blank">
-        View Project
-      </a>
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              Spring Boot
+            </span>
 
-    </div>
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              ReactJS
+            </span>
 
-    <!-- PROJECT 3 -->
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              JWT
+            </span>
 
-    <div class="project">
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              MySQL
+            </span>
 
-      <h3>Movie Ticket Booking System</h3>
+          </div>
 
-      <p>
-        Built an online movie ticket booking platform with booking
-        workflow and secure payment integration.
-      </p>
+          <ul class="mt-6 text-gray-600 space-y-2 text-sm">
 
-      <ul>
-        <li>Implemented seat booking and ticket reservation flow</li>
-        <li>Integrated Razorpay for online payments</li>
-        <li>Used JWT authentication for secure access</li>
-        <li>Created REST APIs using Spring Boot</li>
-        <li>Integrated Cloudinary for movie poster uploads</li>
-        <li>Used ReactJS for interactive frontend development</li>
-      </ul>
+            <li>• JWT Authentication</li>
+            <li>• Cloudinary Integration</li>
+            <li>• REST API Architecture</li>
+            <li>• Responsive UI Design</li>
 
-      <a class="project-btn"
-        href="https://github.com/raviva07/MovieTicketsBooking_App"
-        target="_blank">
-        View Project
-      </a>
+          </ul>
+
+          <div class="mt-8 flex gap-3">
+
+            <a href="https://realestateappfrontend.netlify.app/"
+              target="_blank"
+              class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl text-sm transition">
+
+              Live Demo
+
+            </a>
+
+            <a href="https://github.com/raviva07/Real_Estate_App"
+              target="_blank"
+              class="border border-gray-300 hover:border-blue-500 px-4 py-2 rounded-xl text-sm transition">
+
+              GitHub
+
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+
+        <div class="bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8">
+
+          <h3 class="text-2xl font-bold text-gray-900">
+            E-Commerce App
+          </h3>
+
+          <p class="mt-4 text-gray-600 leading-relaxed">
+
+            Secure e-commerce platform with payment gateway integration,
+            authentication, and complete product management system.
+
+          </p>
+
+          <div class="mt-5 flex flex-wrap gap-2">
+
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              Spring Boot
+            </span>
+
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              ReactJS
+            </span>
+
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              Razorpay
+            </span>
+
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              JWT
+            </span>
+
+          </div>
+
+          <ul class="mt-6 text-gray-600 space-y-2 text-sm">
+
+            <li>• Secure Authentication</li>
+            <li>• Razorpay Payment Gateway</li>
+            <li>• REST API Development</li>
+            <li>• Responsive Frontend</li>
+
+          </ul>
+
+          <div class="mt-8 flex gap-3">
+
+            <a href="https://ecommerceplatformfrontend.netlify.app/"
+              target="_blank"
+              class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl text-sm transition">
+
+              Live Demo
+
+            </a>
+
+            <a href="https://github.com/raviva07/Ecommerce_App"
+              target="_blank"
+              class="border border-gray-300 hover:border-blue-500 px-4 py-2 rounded-xl text-sm transition">
+
+              GitHub
+
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- PROJECT 3 -->
+
+        <div class="bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 p-8">
+
+          <h3 class="text-2xl font-bold text-gray-900">
+            Movie Ticket Booking
+          </h3>
+
+          <p class="mt-4 text-gray-600 leading-relaxed">
+
+            Online movie ticket booking platform with secure booking workflow,
+            seat reservation, and payment integration.
+
+          </p>
+
+          <div class="mt-5 flex flex-wrap gap-2">
+
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              Spring Boot
+            </span>
+
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              ReactJS
+            </span>
+
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              Razorpay
+            </span>
+
+            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+              JWT
+            </span>
+
+          </div>
+
+          <ul class="mt-6 text-gray-600 space-y-2 text-sm">
+
+            <li>• Seat Reservation Workflow</li>
+            <li>• Payment Integration</li>
+            <li>• JWT Authentication</li>
+            <li>• REST API Backend</li>
+
+          </ul>
+
+          <div class="mt-8 flex gap-3">
+
+            <a href="https://movieticketsbookingfrontend.netlify.app/"
+              target="_blank"
+              class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl text-sm transition">
+
+              Live Demo
+
+            </a>
+
+            <a href="https://github.com/raviva07/MovieTicketsBooking_App"
+              target="_blank"
+              class="border border-gray-300 hover:border-blue-500 px-4 py-2 rounded-xl text-sm transition">
+
+              GitHub
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
 
@@ -202,56 +451,75 @@
 
   <!-- EDUCATION -->
 
-  <section id="education">
+  <section id="education" class="py-20 bg-white">
 
-    <h2>Education</h2>
+    <div class="max-w-5xl mx-auto px-6 text-center">
 
-    <p><strong>B.Tech – Civil Engineering</strong></p>
+      <h2 class="text-4xl font-bold text-gray-900">
+        Education
+      </h2>
 
-    <p>Sri Vasavi Engineering College</p>
+      <div class="w-24 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
 
-    <p>CGPA: 8.08</p>
+      <div class="mt-12 bg-gray-50 rounded-3xl p-10 shadow-sm">
 
-  </section>
+        <h3 class="text-2xl font-bold text-gray-900">
+          B.Tech – Civil Engineering
+        </h3>
 
-  <!-- CERTIFICATION -->
+        <p class="mt-3 text-gray-600">
+          Sri Vasavi Engineering College
+        </p>
 
-  <section>
+        <p class="mt-2 text-gray-500">
+          2018 – 2022 | CGPA: 8.08
+        </p>
 
-    <h2>Certification</h2>
+      </div>
 
-    <p>Java Full Stack Development – GUVI</p>
-
-    <a class="project-btn"
-      href="certificate.png"
-      target="_blank">
-      View Certificate
-    </a>
+    </div>
 
   </section>
 
   <!-- CONTACT -->
 
-  <section id="contact" class="contact">
+  <section id="contact" class="py-20">
 
-    <h2>Contact</h2>
+    <div class="max-w-5xl mx-auto px-6 text-center">
 
-    <p>Email: ravivarma7939@gmail.com</p>
+      <h2 class="text-4xl font-bold text-gray-900">
+        Contact
+      </h2>
 
-    <p>Phone: 9603970475</p>
+      <div class="w-24 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
+
+      <div class="mt-10 bg-white rounded-3xl shadow-md p-10">
+
+        <p class="text-lg text-gray-700">
+          📧 ravivarma7939@gmail.com
+        </p>
+
+        <p class="text-lg text-gray-700 mt-4">
+          📱 +91 9603970475
+        </p>
+
+      </div>
+
+    </div>
 
   </section>
 
   <!-- FOOTER -->
 
-  <footer>
+  <footer class="bg-white border-t border-gray-200 py-8">
 
-    <p>
-      © 2026 Ravi Varma | Java Full Stack Developer
-    </p>
+    <div class="max-w-6xl mx-auto px-6 text-center text-gray-500">
+
+      © 2026 Ravi Varma • Java Full Stack Developer
+
+    </div>
 
   </footer>
 
 </body>
-
 </html>
